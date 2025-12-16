@@ -14,7 +14,7 @@ body {
    ============================================ */
 
 header {
-    background: #FFFF00;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
@@ -82,17 +82,10 @@ header {
     letter-spacing: 2px;
     text-align: center;
     white-space: nowrap;
-    margin-left:150px;
 }
 
 .logo span {
-    color: #000000;
-    font-family: "League Spartan", sans-serif;
-    font-size: 20px;
-    text-transform: capitalize;
-    letter-spacing: -3px;
-    font-weight:bold;
-    color: black;
+    color: #3498db;
 }
 
 .logos-bottom {
@@ -271,28 +264,28 @@ nav ul li a:hover {
 /* Para usar imágenes reales, reemplaza las URLs de abajo con: url('img/slide1.jpg') */
 .slide1 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('../img/slide1.png');
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><rect fill="%233498db" width="1200" height="500"/><text x="50%25" y="50%25" font-size="60" fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial">Electrónica de última generación</text></svg>');
     background-size: cover;
     background-position: center;
 }
 
 .slide2 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('../img/slide2.png');
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><rect fill="%232ecc71" width="1200" height="500"/><text x="50%25" y="50%25" font-size="60" fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial">Línea Blanca Premium</text></svg>');
     background-size: cover;
     background-position: center;
 }
 
 .slide3 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('../img/slide3.png');
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><rect fill="%23e74c3c" width="1200" height="500"/><text x="50%25" y="50%25" font-size="60" fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial">Muebles para cada espacio</text></svg>');
     background-size: cover;
     background-position: center;
 }
 
 .slide4 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('../img/slide4.png');
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><rect fill="%239b59b6" width="1200" height="500"/><text x="50%25" y="50%25" font-size="60" fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial">Confort y calidad garantizada</text></svg>');
     background-size: cover;
     background-position: center;
 }
@@ -606,9 +599,8 @@ nav ul li a:hover {
     }
 
     .header-top {
-        flex-direction: column;
+        padding: 15px 0;
         gap: 15px;
-        padding: 15px 20px;
     }
 
     .menu-btn {
@@ -622,10 +614,8 @@ nav ul li a:hover {
         font-size: 20px;
     }
 
-   .logos-container {
-        
+    .logos-container {
         gap: 10px;
-        
     }
 
     .logo-side {
@@ -830,7 +820,6 @@ footer {
     .social-links {
         justify-content: center;
     }
-
 }
 
 
