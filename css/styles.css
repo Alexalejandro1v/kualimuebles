@@ -132,7 +132,6 @@ header {
     box-shadow: none;
     background: transparent;
     flex-shrink: 1;
-    margin-left:50px;
 }
 
 .logo-right {
@@ -881,6 +880,7 @@ footer {
     }
 
 }
+
 
 
 
