@@ -622,8 +622,10 @@ nav ul li a:hover {
         font-size: 20px;
     }
 
-    .logos-container {
+   .logos-container {
+        flex-direction: row;
         gap: 10px;
+        justify-content: center;
     }
 
     .logo-side {
@@ -797,4 +799,5 @@ footer {
     .social-links {
         justify-content: center;
     }
+
 }
