@@ -95,7 +95,7 @@ header {
     text-transform: capitalize;
     font-weight:bold;
     letter-spacing: -1px;
-    font-size: 15px;
+    font-size: 40px;
 }
 
 .logos-bottom {
@@ -132,6 +132,7 @@ header {
     box-shadow: none;
     background: transparent;
     flex-shrink: 1;
+    margin-left:70px;
 }
 
 .logo-right {
@@ -139,6 +140,7 @@ header {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    margin-left:70px;
 }
 
 /* ============================================
@@ -880,6 +882,7 @@ footer {
     }
 
 }
+
 
 
 
