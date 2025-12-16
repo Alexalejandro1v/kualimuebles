@@ -90,7 +90,11 @@ header {
 }
 
 .logo span {
-    color: #3498db;
+    color: #000000;
+    font-family: "League Spartan", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    font-weight:bold;
 }
 
 .logos-bottom {
@@ -873,4 +877,5 @@ footer {
     .social-links {
         justify-content: center;
     }
+
 }
