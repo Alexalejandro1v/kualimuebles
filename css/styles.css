@@ -87,7 +87,7 @@ header {
     flex-shrink: 1;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-left:150px;
+    margin-left:90px;
 }
 
 .logo span {
@@ -882,6 +882,7 @@ footer {
     }
 
 }
+
 
 
 
