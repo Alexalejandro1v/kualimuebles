@@ -94,6 +94,8 @@ header {
     font-family: "League Spartan", sans-serif;
     text-transform: capitalize;
     font-weight:bold;
+    letter-spacing: -1px;
+    font-size: 15px;
 }
 
 .logos-bottom {
@@ -878,5 +880,6 @@ footer {
     }
 
 }
+
 
 
