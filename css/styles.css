@@ -88,7 +88,7 @@ header {
 .logo span {
     color: #000000;
     font-family: "League Spartan", sans-serif;
-    font-size: 50px;
+    font-size: 20px;
     text-transform: capitalize;
     letter-spacing: -3px;
     font-weight:bold;
@@ -832,4 +832,5 @@ footer {
     }
 
 }
+
 
