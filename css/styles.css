@@ -278,28 +278,28 @@ nav ul li a:hover {
 /* Para usar imágenes reales, reemplaza las URLs de abajo con: url('img/slide1.jpg') */
 .slide1 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><rect fill="%233498db" width="1200" height="500"/><text x="50%25" y="50%25" font-size="60" fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial">Electrónica de última generación</text></svg>');
+                url('../img/slide1.png');
     background-size: cover;
     background-position: center;
 }
 
 .slide2 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><rect fill="%232ecc71" width="1200" height="500"/><text x="50%25" y="50%25" font-size="60" fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial">Línea Blanca Premium</text></svg>');
+                url('../img/slide2.png');
     background-size: cover;
     background-position: center;
 }
 
 .slide3 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><rect fill="%23e74c3c" width="1200" height="500"/><text x="50%25" y="50%25" font-size="60" fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial">Muebles para cada espacio</text></svg>');
+                url('../img/slide3.png');
     background-size: cover;
     background-position: center;
 }
 
 .slide4 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><rect fill="%239b59b6" width="1200" height="500"/><text x="50%25" y="50%25" font-size="60" fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial">Confort y calidad garantizada</text></svg>');
+                url('../img/slide4.png');
     background-size: cover;
     background-position: center;
 }
@@ -415,7 +415,7 @@ nav ul li a:hover {
     display: flex;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    gap: 15px;
+    gap: 8px;
     padding: 10px 0;
 }
 
@@ -426,7 +426,7 @@ nav ul li a:hover {
     text-decoration: none;
     color: #2c3e50;
     transition: all 0.3s ease;
-    padding: 10px;
+    padding: 5px;
     flex-shrink: 0;
 }
 
@@ -435,17 +435,17 @@ nav ul li a:hover {
 }
 
 .category-icon {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
     transition: all 0.3s ease;
-    padding: 15px;
+    padding: 14px;
 }
 
 .category-item:hover .category-icon {
@@ -460,7 +460,7 @@ nav ul li a:hover {
 }
 
 .category-name {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     text-align: center;
     color: #2c3e50;
@@ -878,4 +878,5 @@ footer {
     }
 
 }
+
 
