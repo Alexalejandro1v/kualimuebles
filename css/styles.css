@@ -26,7 +26,6 @@ header {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
-    position:relative;
 }
 
 .header-top {
@@ -35,7 +34,7 @@ header {
     align-items: center;
     padding: 20px 0;
     gap: 30px;
-    position: absolute;
+    position: relative;
 }
 
 .menu-btn {
@@ -83,10 +82,13 @@ header {
     letter-spacing: 2px;
     text-align: center;
     white-space: nowrap;
+    position:absolute;
 }
 
 .logo span {
     color: #3498db;
+        position:absolute;
+
 }
 
 .logos-bottom {
@@ -94,6 +96,8 @@ header {
     align-items: center;
     justify-content: center;
     gap: 20px;
+        position:absolute;
+
 }
 
 .logos-container {
@@ -108,6 +112,8 @@ header {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        
+
 }
 
 .logo-bottom {
@@ -117,6 +123,8 @@ header {
     border-radius: 0;
     box-shadow: none;
     background: transparent;
+        position:absolute;
+
 }
 
 .logo-right {
@@ -124,6 +132,8 @@ header {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        position:absolute;
+
 }
 
 /* ============================================
@@ -823,3 +833,4 @@ footer {
     }
 
 }
+
